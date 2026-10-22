@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="A clear introduction to cells, the basic structural and functional units of living organisms.">
+  <title>Cell Biology: The Hidden Machinery of Life — Anarchy</title>
+  <style>
+    :root{--bg:#10120f;--surface:#181b17;--text:#f0f2e9;--muted:#a0a69a;--accent:#c4f46a;--border:#30352c;--header:rgba(16,18,15,.88)}
+    [data-theme="light"]{color-scheme:light;--bg:#f7f8f3;--surface:#fff;--text:#1b2017;--muted:#666d60;--accent:#416c18;--border:#e0e4d8;--header:rgba(247,248,243,.9)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.8;transition:background .2s,color .2s}
+    a{color:inherit}.container{width:min(1080px,calc(100% - 36px));margin:auto}
+    header{position:sticky;top:0;z-index:5;background:var(--header);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+    nav{min-height:68px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+    .brand{font-size:20px;font-weight:850;letter-spacing:-1px;text-decoration:none}.mark{display:inline-grid;place-items:center;width:30px;height:30px;margin-right:8px;border-radius:9px;background:var(--accent);color:#151910}
+    .navright{display:flex;align-items:center;gap:18px}.navright a{font-size:13px;color:var(--muted);text-decoration:none}
+    button{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:10px;padding:8px 11px;cursor:pointer}
+    main{display:grid;grid-template-columns:minmax(0,700px) 210px;gap:48px;justify-content:center;padding:65px 0 90px}
+    .category{font-size:12px;color:var(--accent);font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
+    h1{font-size:clamp(36px,6vw,60px);line-height:1.1;letter-spacing:-2.5px;margin:14px 0 18px}
+    .intro{font-size:18px;color:var(--muted);line-height:1.8;margin:0 0 28px}
+    .meta{font-size:12px;color:var(--muted);border-bottom:1px solid var(--border);padding-bottom:22px;margin-bottom:30px}
+    article h2{font-size:26px;letter-spacing:-.8px;line-height:1.3;margin-top:38px}
+    article h3{font-size:19px;margin-top:27px}
+    article p,article li{font-size:16px}
+    article li{margin:8px 0}
+    .callout{padding:18px 20px;border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:12px;background:var(--surface);margin:24px 0}
+    .callout strong{display:block;margin-bottom:5px}
+    aside{align-self:start;position:sticky;top:100px;padding:18px;border:1px solid var(--border);border-radius:14px;background:var(--surface)}
+    aside strong{font-size:13px}aside a{display:block;color:var(--muted);font-size:12px;text-decoration:none;margin-top:12px}
+    aside a:hover,.back:hover{color:var(--accent)}
+    .related{border-top:1px solid var(--border);margin-top:45px;padding-top:20px}
+    .related a,.back{color:var(--accent);text-decoration:none;font-weight:650}
+    footer{border-top:1px solid var(--border);padding:25px 0;color:var(--muted);font-size:12px}
+    @media(max-width:760px){main{grid-template-columns:1fr;gap:28px;padding-top:45px}aside{position:static;grid-row:1;display:flex;flex-wrap:wrap;gap:10px 18px}aside strong{width:100%}aside a{margin:0}.intro{font-size:16px}article p,article li{font-size:15px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header><div class="container"><nav>
+    <a class="brand" href="../index.html"><span class="mark">A</span>Anarchy.</a>
+    <div class="navright"><a href="../index.html#articles">All articles</a><button id="theme" type="button" aria-label="Switch theme">☀</button></div>
+  </nav></div></header>
+  <div class="container">
+    <main>
+      <article>
+        <a class="back" href="../index.html#articles">← Back to articles</a>
+        <p class="category">Biology</p>
+        <h1>Cell Biology: The Hidden Machinery of Life</h1>
+        <p class="intro">A clear introduction to cells, the basic structural and functional units of living organisms.</p>
+        <div class="meta">Anarchy Learning Notes · 7 min read</div>
+        <h2 id="what-is-a-cell">What is a cell?</h2>
+<p>A <strong>cell</strong> is the basic structural and functional unit of life. Every organism is made of one or more cells. Some organisms, such as bacteria, consist of a single cell; plants and animals are multicellular and contain many specialized cell types.</p>
+<p>Cells take in materials, obtain and use energy, maintain internal conditions, respond to their surroundings, and reproduce. In multicellular organisms, cells also communicate and cooperate to form tissues and organs.</p>
+<h2 id="cell-types">Two broad cell types</h2>
+<h3>Prokaryotic cells</h3><p>Prokaryotes, including bacteria and archaea, do not enclose their DNA inside a membrane-bound nucleus. Their DNA is located in a region called the nucleoid. They also lack the membrane-bound organelles found in eukaryotic cells.</p>
+<h3>Eukaryotic cells</h3><p>Eukaryotic cells have a membrane-bound nucleus and specialized compartments called organelles. Animals, plants, fungi, and protists are eukaryotes. Plant cells commonly have a cell wall, chloroplasts in photosynthetic tissues, and a large central vacuole.</p>
+<h2 id="organelles">Key cell structures</h2>
+<ul><li><strong>Nucleus:</strong> stores most of the cell's genetic information and helps regulate gene expression.</li><li><strong>Mitochondria:</strong> generate much of the ATP used by eukaryotic cells through cellular respiration.</li><li><strong>Ribosomes:</strong> build proteins by translating messenger RNA.</li><li><strong>Endoplasmic reticulum:</strong> helps synthesize proteins and lipids.</li><li><strong>Golgi apparatus:</strong> modifies, sorts, and packages many proteins and lipids.</li><li><strong>Lysosomes:</strong> contain enzymes that digest and recycle cellular material in many animal cells.</li></ul>
+<h2 id="membrane">The cell membrane</h2>
+<p>The cell membrane forms a selective boundary between the cell and its environment. It consists mainly of a phospholipid bilayer with embedded proteins. Some substances cross by diffusion, others use membrane proteins, and some require energy-dependent transport.</p>
+<p>This selective permeability helps cells maintain suitable internal conditions, a process closely connected to <strong>homeostasis</strong>.</p>
+<h2 id="revision">Quick revision</h2>
+<ul><li>Cell = basic structural and functional unit of life.</li><li>Prokaryotes lack a membrane-bound nucleus; eukaryotes have one.</li><li>Ribosomes synthesize proteins.</li><li>Mitochondria produce much of the ATP in eukaryotic cells.</li><li>The cell membrane regulates exchange with the environment.</li></ul>
+        <div class="callout"><strong>Key takeaway</strong>Cells are the smallest units that can independently carry out the essential processes of life. Their structures are specialized, but they work together as an integrated system.</div>
+        <section class="related"><h2>Keep exploring</h2><p>Connect biology with the wider universe by exploring one of the densest objects known in astrophysics.</p><p><a href="neutron-stars.html">Neutron Stars →</a></p><p><a href="../index.html#articles">Browse all topics →</a></p></section>
+      </article>
+      <aside aria-label="On this page"><strong>On this page</strong><a href="#what-is-a-cell">What is a cell?</a><a href="#cell-types">Two broad cell types</a><a href="#organelles">Key cell structures</a><a href="#membrane">The cell membrane</a><a href="#revision">Quick revision</a></aside>
+    </main>
+  </div>
+  <footer><div class="container">© <span id="year"></span> Anarchy · Built for curious minds.</div></footer>
+  <script>
+    const root=document.documentElement,button=document.getElementById("theme");
+    function setTheme(t){root.dataset.theme=t;button.textContent=t==="dark"?"☀":"☾";button.setAttribute("aria-label",t==="dark"?"Switch to light theme":"Switch to dark theme");document.querySelector('meta[name="theme-color"]').content=t==="dark"?"#10120f":"#f7f8f3"}
+    try{setTheme(localStorage.getItem("anarchy-theme")==="light"?"light":"dark")}catch(e){setTheme("dark")}
+    button.addEventListener("click",()=>{const t=root.dataset.theme==="dark"?"light":"dark";setTheme(t);try{localStorage.setItem("anarchy-theme",t)}catch(e){}})
+    document.getElementById("year").textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
